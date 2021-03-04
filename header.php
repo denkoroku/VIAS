@@ -38,13 +38,17 @@
 	<header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
         <div class="container">
             <div>
+                <?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
                <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
                         <a href="<?php echo esc_url( home_url( '/' )); ?>">
                             <img src="<?php echo esc_url(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
                         </a>
+                        
+
                     <?php else : ?>
                         <a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
                     <?php endif; ?>
+                    
             </div>
             <nav class="navbar navbar-expand-xl p-0">
                 
