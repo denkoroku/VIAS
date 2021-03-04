@@ -1,0 +1,29 @@
+//sass --watch scss/admin/admin.scss:assets/custom_admin.css
+
+@import '../base/variables';
+
+#adminmenu .opensub .wp-submenu li.current a, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:focus, #adminmenu .wp-submenu li.current a:hover, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu li.current a {
+    color:aquamarine;
+}
+
+.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+    background-color:$main-font-colour;
+}
+
+#adminmenuback,#adminmenuwrap,#adminmenu{
+    background-color: $nano-green;
+}
+
+#wpwrap{
+    background-color:linen;
+}
+
+#wpadminbar{
+    background-color: $main-font-colour;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    
+}

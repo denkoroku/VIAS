@@ -1,0 +1,46 @@
+/* 
+Theme Name: Nanoweb_Starter_boostrap_child
+Description: Theme for Nanoweb
+Version:1.0.0
+Theme Author: Cath and Calum
+Template:wp-bootstrap-starter 
+*/
+
+//sass --watch style.scss:style.css
+
+@import 'scss/base/variables';
+@import 'scss/base/navigation';
+@import 'scss/base/headings';
+@import 'scss/components/button';
+@import 'scss/components/page_banner';
+
+
+
+body {
+	font-family: $body-font;
+	margin: 0;
+	color:$main-font-colour;
+}
+p {
+	font-size:1.2rem
+}
+
+.post-thumbnail {
+	margin-bottom: 1.875rem;
+}
+
+
+
+.entry-title{
+	font-family:$heading-font;
+	font-size:2rem !important;
+}
+
+#content.site-content{
+	padding-top:0;
+}
+
+
+
+
+

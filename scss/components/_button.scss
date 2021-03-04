@@ -1,0 +1,14 @@
+.wp-block-button__link {
+    background-color: $main-colour;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    color: $contrast-font-colour !important;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
+}

@@ -1,0 +1,20 @@
+#adminmenu .opensub .wp-submenu li.current a, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:focus, #adminmenu .wp-submenu li.current a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a {
+  color: aquamarine; }
+
+.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+  background-color: darkslategrey; }
+
+#adminmenuback, #adminmenuwrap, #adminmenu {
+  background-color: #196760; }
+
+#wpwrap {
+  background-color: linen; }
+
+#wpadminbar {
+  background-color: darkslategrey; }
+
+.footer {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=custom_admin.css.map */
