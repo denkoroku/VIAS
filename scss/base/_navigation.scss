@@ -3,6 +3,7 @@ header#masthead{
   margin-bottom: 0;
   background-color: $main-colour;
   font-family:$heading-font;
+  
 }
 
 .navbar-brand{
@@ -14,6 +15,7 @@ header#masthead{
 .navbar{
   .nav-link{
     font-size:1.2rem !important;
+    color: $main-font-colour !important;
   }
 }
     
