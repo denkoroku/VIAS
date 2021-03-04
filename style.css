@@ -15,7 +15,7 @@ header#masthead {
 
 .navbar .nav-link {
   font-size: 1.2rem !important;
-  color: darkslategrey !important; }
+  color: #65626a !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Mulish", sans-serif;
@@ -96,21 +96,19 @@ div#page-sub-header p {
   padding-bottom: 2em;
   background-color: #b0a682 !important;
   color: white; }
-
-#address {
-  font-size: 1.6em;
-  margin-bottom: 2em; }
-
-#reg-numbers {
-  font-size: 1.2em; }
-
-.cn-fa-facebook {
-  background-color: #b0a682; }
+  #footer-widget #address {
+    font-size: 1.6em;
+    margin-bottom: 2em; }
+  #footer-widget #reg-numbers {
+    font-size: 1.2em; }
+  #footer-widget #footer-social a {
+    background-color: #b0a682 !important;
+    color: white !important; }
 
 body {
   font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
   margin: 0;
-  color: darkslategrey; }
+  color: #65626a; }
 
 p {
   font-size: 1.2rem; }

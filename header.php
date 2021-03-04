@@ -39,6 +39,7 @@
         <div class="container">
             <div>
                 <?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
+                <a class="headphones" href="https://www.browsealoud.com" target="_blank" title="Download Browsealoud. Link opens in new tab or window."></a>
                <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
                         <a href="<?php echo esc_url( home_url( '/' )); ?>">
                             <img src="<?php echo esc_url(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
