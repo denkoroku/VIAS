@@ -17,6 +17,19 @@ header#masthead {
   font-size: 1.2rem !important;
   color: #65626a !important; }
 
+#headphones {
+  height: 30px;
+  width: 30px;
+  background-image: url("images/ba-websites-logo.png") !important;
+  background-size: 100% 100%;
+  background-position: center; }
+
+.fa-facebook {
+  color: #283583; }
+
+.fa-twitter {
+  color: #009fe3; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Mulish", sans-serif;
   margin: 0 0 20px;
