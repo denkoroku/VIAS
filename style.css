@@ -8,7 +8,7 @@ Template:wp-bootstrap-starter
 header#masthead {
   margin-bottom: 0;
   background-color: white;
-  font-family: "Mulish", sans-serif; }
+  font-family: "ITC Avant Garde Gothic Std Book", sans-serif; }
 
 .navbar-brand .site-title {
   font-size: 2rem; }
@@ -30,7 +30,7 @@ header#masthead {
   color: #009fe3; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Mulish", sans-serif;
+  font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
   margin: 0 0 20px;
   color: white; }
 
@@ -45,7 +45,7 @@ p, pre, table, form {
   margin: 0 0 0.857rem; }
 
 div#page-sub-header h1 {
-  font-family: "Mulish", sans-serif;
+  font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
   margin-bottom: 0;
   text-transform: none;
   padding-top: 0; }
@@ -57,10 +57,10 @@ div#page-sub-header p {
   padding: 0; }
 
 #secondary .widget-title {
-  font-family: "Mulish", sans-serif; }
+  font-family: "ITC Avant Garde Gothic Std Book", sans-serif; }
 
 .entry-meta {
-  font-family: "Mulish", sans-serif; }
+  font-family: "ITC Avant Garde Gothic Std Book", sans-serif; }
 
 .wp-block-button__link {
   background-color: white;
@@ -129,7 +129,7 @@ p {
   margin-bottom: 1.875rem; }
 
 .entry-title {
-  font-family: "Mulish", sans-serif;
+  font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
   font-size: 2rem !important; }
 
 #content.site-content {
