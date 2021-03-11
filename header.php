@@ -85,11 +85,9 @@
         </div>
 	</header><!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
-        <div id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            
-        </div>
+       
     <?php endif; ?>
 	<div id="content" class="site-content">
-		<div class="container">
+		<div class="">
 			<div class="row">
                 <?php endif; ?>
