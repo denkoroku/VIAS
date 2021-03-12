@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body:not(.theme-preset-active) #page-sub-header h1 {
     color:$main-colour;
+	font-weight: 400;
+    line-height: 1.4;
 }
 
 .comment-respond h3, .entry-comments h3 {

@@ -9,6 +9,7 @@ Template:wp-bootstrap-starter
 //sass --watch style.scss:style.css
 
 @import 'scss/base/variables';
+@import 'scss/layout/whole_page.scss';
 @import 'scss/base/navigation';
 @import 'scss/base/headings';
 @import 'scss/components/button';
@@ -23,7 +24,8 @@ body {
 	color:$main-font-colour;
 }
 p {
-	font-size:1.2rem
+	font-size:1.6rem;
+	margin-bottom:1.3em;
 }
 
 .post-thumbnail {

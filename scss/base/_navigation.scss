@@ -3,7 +3,6 @@ header#masthead{
   margin-bottom: 0;
   background-color: $main-colour;
   font-family:$heading-font;
-  
 }
 
 .navbar-brand{
@@ -11,14 +10,27 @@ header#masthead{
     font-size:2rem;
   }
 }
-
-.navbar{
-  .nav-link{
-    font-size:1.2rem !important;
-    color: $main-font-colour !important;
-  }
+.navbar-toggler{
+  font-size: 2rem;
 }
 
+.navbar{
+    border-bottom: solid 1px transparent!important;
+    padding-bottom: 1rem!important;
+  
+  .nav-link{
+    font-size:2rem !important;
+    color: $main-font-colour !important;
+  }
+  .nav-link:hover {
+    text-decoration:underline;
+  }
+  .current_page_item a {
+    text-decoration:underline;
+    color:black!important;
+    }
+}
+  
 #headphones{
   height:30px;
   width:30px;
@@ -36,3 +48,4 @@ header#masthead{
     color:#009fe3;
   }
 }
+

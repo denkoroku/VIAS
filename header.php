@@ -16,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link href="http://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book" rel="stylesheet">
+                
 <?php wp_head(); ?>
 </head>
 
@@ -61,10 +63,10 @@
                     <?php endif; ?>
                   </div>  
             </div>
-            <nav class="navbar navbar-expand-xl p-0">
+            <nav class="navbar navbar-expand-xl p-0 text-center">
                 
                 <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span><span>MENU</span>
+                    <span class="navbar-toggler-icon pb-5"></span><span>MENU</span>
                 </button>
 
                 <?php

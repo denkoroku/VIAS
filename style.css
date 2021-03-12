@@ -5,6 +5,9 @@ Version:1.0.0
 Theme Author: Cath and Calum
 Template:wp-bootstrap-starter 
 */
+html {
+  font-size: 62.5%; }
+
 header#masthead {
   margin-bottom: 0;
   background-color: white;
@@ -13,9 +16,20 @@ header#masthead {
 .navbar-brand .site-title {
   font-size: 2rem; }
 
-.navbar .nav-link {
-  font-size: 1.2rem !important;
-  color: #65626a !important; }
+.navbar-toggler {
+  font-size: 2rem; }
+
+.navbar {
+  border-bottom: solid 1px transparent !important;
+  padding-bottom: 1rem !important; }
+  .navbar .nav-link {
+    font-size: 2rem !important;
+    color: #65626a !important; }
+  .navbar .nav-link:hover {
+    text-decoration: underline; }
+  .navbar .current_page_item a {
+    text-decoration: underline;
+    color: black !important; }
 
 #headphones {
   height: 30px;
@@ -35,7 +49,9 @@ h1, h2, h3, h4, h5, h6 {
   color: white; }
 
 body:not(.theme-preset-active) #page-sub-header h1 {
-  color: white; }
+  color: white;
+  font-weight: 400;
+  line-height: 1.4; }
 
 .comment-respond h3, .entry-comments h3 {
   margin-bottom: 3.750rem;
@@ -108,11 +124,14 @@ div#page-sub-header p {
   padding-bottom: 2em;
   background-color: #b0a682 !important;
   color: white; }
+  #footer-widget h2 {
+    padding-top: 2rem;
+    font-size: 3rem; }
   #footer-widget #address {
-    font-size: 1.6em;
-    margin-bottom: 2em; }
+    font-size: 2.1rem;
+    margin-bottom: 2rem; }
   #footer-widget #reg-numbers {
-    font-size: 1.2em; }
+    font-size: 1.4rem; }
   #footer-widget #footer-social a {
     background-color: #b0a682 !important;
     color: white !important; }
@@ -123,7 +142,8 @@ body {
   color: #65626a; }
 
 p {
-  font-size: 1.2rem; }
+  font-size: 1.6rem;
+  margin-bottom: 1.3em; }
 
 .post-thumbnail {
   margin-bottom: 1.875rem; }
