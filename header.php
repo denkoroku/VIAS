@@ -38,9 +38,9 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 	<header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-        <div class="container">
+        
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5 align-left ml-2 mr-5 mt-5">
                     <div>
                         <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
 
@@ -62,7 +62,7 @@
                         <a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
                     <?php endif; ?>
                   </div>  
-            </div>
+            
             <nav class="navbar navbar-expand-xl p-0 text-center">
                 
                 <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
