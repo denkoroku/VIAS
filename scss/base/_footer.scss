@@ -1,35 +1,41 @@
 #footer-widget{
+    padding-top: 2em;
+    padding-bottom:2em;
+    margin-top: 0%;
+    background-color:#b0a682!important ;
+    color:white;
+    
     h2{
         padding-top:2rem;
         font-size:3rem;
     }
-    padding-top: 2em;
-    padding-bottom:2em;
-
-    background-color:#b0a682!important ;
-    color:white;
-
-
-#address{
-    font-size:2.1rem;
-    margin-bottom:2rem;
-
-}
-#reg-numbers{
-    font-size: 1.4rem;
-
-}
-
-#footer-social{
-    a{
-        background-color: #b0a682!important;
-        color:white!important;  
+    .widget{
+        address{
+        font-size:1.6rem!important;
+        margin-bottom:2rem;
+        }
     }
-}
+    
+    #reg-numbers{
+        font-size: 1rem;
+
+    }
+
+    #footer-social{
+        a{
+            background-color: #b0a682!important;
+            color:white!important;  
+        }
+    }
 }
 
 footer{
+    display:none;
     #colophon{
         display:none!important;
     }
+    .entry-footer{
+    display:none
+    }
 }
+

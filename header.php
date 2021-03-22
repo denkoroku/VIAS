@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link href="http://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book" rel="stylesheet">
                 
 <?php wp_head(); ?>
 </head>
@@ -40,7 +40,7 @@
 	<header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
         
             <div class="row">
-                <div class="col-md-5 align-left ml-2 mr-5 mt-5">
+                <div class="col-md-3 align-left ml-2 mr-5 mt-5">
                     <div>
                         <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
 

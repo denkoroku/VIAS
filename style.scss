@@ -9,7 +9,6 @@ Template:wp-bootstrap-starter
 //sass --watch style.scss:style.css
 
 @import 'scss/base/variables';
-@import 'scss/layout/whole_page.scss';
 @import 'scss/base/navigation';
 @import 'scss/base/headings';
 @import 'scss/components/button';
@@ -17,16 +16,12 @@ Template:wp-bootstrap-starter
 @import 'scss/base/footer';
 
 
-
 body {
 	font-family: $body-font;
 	margin: 0;
 	color:$main-font-colour;
 }
-p {
-	font-size:1.6rem;
-	margin-bottom:1.3em;
-}
+
 
 .post-thumbnail {
 	margin-bottom: 1.875rem;
@@ -39,6 +34,7 @@ p {
 
 #content.site-content{
 	padding-top:0;
+	padding-bottom:0;
 }
 
 
