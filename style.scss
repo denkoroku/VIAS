@@ -13,6 +13,7 @@ Template:wp-bootstrap-starter
 @import 'scss/base/headings';
 @import 'scss/components/button';
 @import 'scss/components/page_banner';
+@import 'scss/pages/news';
 @import 'scss/base/footer';
 
 
@@ -37,7 +38,9 @@ body {
 	padding-bottom:0;
 }
 
-
+.news{
+	font-size: 20px;
+}
 
 
 

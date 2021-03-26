@@ -118,6 +118,11 @@ div#page-sub-header p {
   .page-banner__intro p {
     margin: 0; }
 
+.news .divider {
+  background-color: #44babf;
+  height: 14px;
+  border-radius: 7px; }
+
 #footer-widget {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -158,5 +163,8 @@ body {
 #content.site-content {
   padding-top: 0;
   padding-bottom: 0; }
+
+.news {
+  font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
