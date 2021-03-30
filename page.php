@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="main" class="site-main" role="main">
+	<section id="primary" class="content-area mx-auto">
+		<div id="main" class="site-main mx-auto" role="main">
 
 			<?php
 			while ( have_posts() ) : the_post();

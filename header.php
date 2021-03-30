@@ -65,7 +65,7 @@
             
             <nav class="navbar navbar-expand-xl p-0 text-center">
                 
-                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mx-auto text-center" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon pb-5"></span><span>MENU</span>
                 </button>
 
