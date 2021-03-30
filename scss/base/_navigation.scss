@@ -21,19 +21,17 @@ header#masthead{
     padding-bottom: 1rem!important;
   
     li{
-      
       a{
         position:relative;
         text-decoration:none;
       }
       a::before{
-        
           content:"";
           position:absolute;
-          width:50%;
+          width:10%;
           height: 7px;
           bottom:0;
-          left:25%;
+          left:45%;
           border-radius: 3.5px;
           background-color:#44babf;
           visibility:hidden;
@@ -60,17 +58,46 @@ header#masthead{
     }
 }
 
-.dropdown-item{
-  margin-left:50%;
-  a::before{
-    margin-left:0;
-  }
-}
+ .dropdown-item{
+   text-align:center;
+   line-height: 1.2em;
+ }
+
+
+
 
 @media (min-width:1200px){
   .dropdown-item{
   margin-left:0;
   }
+  
+  .navbar{
+    margin-top: -50px;
+    border-bottom: solid 1px transparent!important;
+    padding-bottom: 1rem!important;
+  
+    li{
+      
+      a::before{
+          content:"";
+          position:absolute;
+          width:100%;
+          height: 7px;
+          bottom:0;
+          left:0;
+          border-radius: 3.5px;
+          background-color:#44babf;
+          visibility:hidden;
+          transform:ScaleX(0);
+          transition: all 0.3s ease-in-out 0s;
+          }
+
+          a:hover::before{
+          visibility:visible;
+          transform: scaleX(1)
+          }
+        }
+    }
 }
   
 #headphones{
