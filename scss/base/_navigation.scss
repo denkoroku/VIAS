@@ -19,20 +19,24 @@ header#masthead{
     margin-top: -50px;
     border-bottom: solid 1px transparent!important;
     padding-bottom: 1rem!important;
+
+    .current_page_item  {
+    text-decoration:underline!important;
+    color:black!important;
+    }
   
     li{
       a{
         position:relative;
-        text-decoration:none;
       }
       a::before{
           content:"";
           position:absolute;
           width:10%;
-          height: 7px;
+          height: 5px;
           bottom:0;
           left:45%;
-          border-radius: 3.5px;
+          border-radius: 2.5px;
           background-color:#44babf;
           visibility:hidden;
           transform:ScaleX(0);
@@ -45,56 +49,39 @@ header#masthead{
           }
     }  
   .nav-link{
-    font-size:1.2rem !important;
+    font-size:1.6rem !important;
     color: $main-font-colour !important;
-    text-decoration:none;
+    
   }
   .nav-link:hover {
     text-decoration:none;
   }
-  .current_page_item  {
-    text-decoration:underline;
-    color:black!important;
-    }
+  
 }
 
  .dropdown-item{
    text-align:center;
-   line-height: 1.2em;
+   font-size:1.4rem;
  }
 
-
-
-
+//  settings specific to on big screens
 @media (min-width:1200px){
   .dropdown-item{
   margin-left:0;
   }
-  
   .navbar{
-    margin-top: -50px;
-    border-bottom: solid 1px transparent!important;
-    padding-bottom: 1rem!important;
-  
+    .nav-link{
+      font-size: 1.4rem!important;
+      padding-left:15px!important;
+      padding-right:15px!important;
+    }
     li{
-      
       a::before{
-          content:"";
-          position:absolute;
           width:100%;
           height: 7px;
           bottom:0;
           left:0;
           border-radius: 3.5px;
-          background-color:#44babf;
-          visibility:hidden;
-          transform:ScaleX(0);
-          transition: all 0.3s ease-in-out 0s;
-          }
-
-          a:hover::before{
-          visibility:visible;
-          transform: scaleX(1)
           }
         }
     }
